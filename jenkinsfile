@@ -1,7 +1,7 @@
 pipeline{
     agent any
     tools{
-     maven "maven"
+     maven "maven" #from jenkins maven installation 
     }
     stages{
         stage('build maven app'){
