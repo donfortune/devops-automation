@@ -13,7 +13,7 @@ pipeline{
         stage('build docker image'){
             steps{
                 script{
-                    sh "docker build -t donfortune1/devops-integration ."
+                    sh "docker build -t donfortune1/devops-integration ." #build the image
                 }
             }
         }
